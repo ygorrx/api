@@ -19,7 +19,7 @@ function api_comment_post($request){
 
     $response =  [
         'comment_author' => $user-> user_login,
-        'comment_conten t' => $comment,
+        'comment_content' => $comment,
         'comment_post_ID' => $post_id,
         'user_id' => $user_id,
     ];
